@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="resume-container">
+        <!-- Left Column -->
+        <div class="left-column">
+            <div class="profile-picture">
+                <img src="logo.png" alt="Profile Picture" id="profile-picture">
+            </div>
+
+            <div class="contact">
+                <h3>Contact</h3>
+                <p id="address"></p>
+                <p id="phone-email"></p>
+                <p id="website"></p>
+            </div>
+
+            <div class="social">
+                <h3>Social Links</h3>
+                <ul id="social-links"></ul>
+            </div>
+
+            <div class="skills">
+                <h3>Design & Coding</h3>
+                <p id="skills"></p>
+                <p id="frameworks"></p>
+                <p id="tools"></p>
+            </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="right-column">
+            <header>
+                <h1 id="name"></h1>
+                <p id="title"></p>
+            </header>
+
+            <section class="profile">
+                <h2>Profile</h2>
+                <p id="profile-text"></p>
+            </section>
+
+            <section class="experience">
+                <h2>Experience</h2>
+                <div id="experience"></div>
+            </section>
+
+            <section class="education">
+                <h2>Education</h2>
+                <div id="education"></div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

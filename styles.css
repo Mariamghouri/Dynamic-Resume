@@ -1,0 +1,185 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.resume-container {
+  display: flex;
+  max-width: 650px;
+  margin: 70px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Column */
+.left-column {
+  background-color: cadetblue;
+  color: #fff;
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-picture img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #efdebe;
+  margin-bottom: 20px;
+}
+
+.contact, .social, .skills {
+  margin-top: 30px;
+}
+
+.contact h3, .social h3, .skills h3 {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.social ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social ul li {
+  margin: 5px 0;
+}
+
+/* Right Column */
+.right-column {
+  width: 70%;
+  padding: 30px;
+  background-color: #efdebe;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 48px;
+}
+
+header p {
+  margin: 5px 0 20px;
+  color: #777;
+  font-size: 16px;
+}
+
+section h2 {
+  margin: 20px 0 10px;
+  color: cadetblue;
+}
+
+section h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  color: #333;
+}
+
+section p, section ul {
+  margin: 5px 0 15px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+section ul {
+  padding-left: 20px;
+}
+
+section ul li {
+  margin: 5px 0;
+}
+
+
+
+/* General Form Styling */
+#contactForm {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 25px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  background-color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form Sections */
+.form-section {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333333;
+  border-bottom: 2px solid #0078d7;
+  padding-bottom: 5px;
+}
+
+/* Form Groups */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/* Label Styling */
+.form-label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #555555;
+}
+
+/* Input and Textarea Styling */
+.form-input, .form-textarea {
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: border-color 0.3s;
+}
+
+.form-input:focus, .form-textarea:focus {
+  border-color: #0078d7;
+  outline: none;
+}
+
+/* Textarea Specific Styling */
+.form-textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Submit Button */
+.form-button {
+  background-color: #0078d7;
+  color: #ffffff;
+  padding: 12px 20px;
+  font-size: 17px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background-color 0.3s;
+}
+
+.form-button:hover {
+  background-color: #005ea0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #contactForm {
+      padding: 20px;
+  }
+
+  .form-button {
+      width: 100%;
+      text-align: center;
+  }
+}
